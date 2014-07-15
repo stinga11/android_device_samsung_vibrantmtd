@@ -19,7 +19,7 @@ int device_handle_key(int key_code, int visible) {
                 return SELECT_ITEM;
 
             case 102: // BACK
-                    return GO_BACK;
+                return GO_BACK;
 
             case KEY_POWER:
                 return SELECT_ITEM;
