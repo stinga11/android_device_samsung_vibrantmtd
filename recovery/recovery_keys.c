@@ -15,14 +15,13 @@ int device_handle_key(int key_code, int visible) {
             case 139: // MENU
                 return HIGHLIGHT_UP;
 
+            case KEY_POWER:
             case 158: // HOME
                 return SELECT_ITEM;
 
             case 102: // BACK
                 return GO_BACK;
 
-            case KEY_POWER:
-                return SELECT_ITEM;
             default:
                 return NO_ACTION;
         }
